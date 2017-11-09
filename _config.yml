@@ -18,8 +18,8 @@ email: josefdb@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal blog where I share information about programming,
   medicine, music, and curent events.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jduran.me/blog" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "http://jduran.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jduran7
 
