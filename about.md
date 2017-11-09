@@ -1,18 +1,17 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img src="/assets/jose.jpg" alt="Drawing" style="width: 200px;"/>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hi! I'm Jose Duran, a clinical researcher and **software developer** from **Bucaramanga, Colombia.**
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I live in **Boston** and work as a **postdoctoral research fellow** at **Harvard Medical School**. My main research interests are **robotic radiosurgery** and **immunotherapy**.
 
+In terms of programming, I'm interested in the development of **software tools to help patients with chronic diseases**. 
 
-[jekyll-organization]: https://github.com/jekyll
+I'm currently studying healthy tissue radioprotection in pancreatic cancer and the combination of immunotherapy and robotic radiosurgery in kidney cancer and melanoma.
+
+The programming languages I'm using the most at the moment are **Javascript**, **Python**, and **R**.
