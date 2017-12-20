@@ -13,6 +13,7 @@ a.site-title:hover{
 
 a.page-link{
 	color: #A0A0A0 !important;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 a.page-link:hover{
@@ -35,9 +36,6 @@ a.post-link:hover{
 	color: #ad9171;
 }
 
-h1.page-heading{
-}
-
 
 footer.site-footer{
 	background-color: #afa99a;
@@ -47,10 +45,19 @@ footer p{
 	color: #FDFDFD;
 }
 
-h2.footer-heading{
-		
+header .wrapper {
+	width: 40%;
+	margin: auto;
+	padding: 0;
 }
 
-p{
-	
+.site-nav{
+	text-align: center;
+	float: center;
+	line-height: 50px;
+	float: none;
+}
+
+.site-header{
+	min-height: 50px;
 }
