@@ -1,5 +1,5 @@
 ---
-
+title: "Connecting phyisician-scientists with labs in Boston"
 ---
 
 <img src="/assets/iri.png" alt="Drawing" style="width: 300px;"/>
