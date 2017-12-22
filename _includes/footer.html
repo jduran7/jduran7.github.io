@@ -15,7 +15,7 @@
             {% endif %}
             </li>
             {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li><a class="gmail" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
         </ul>
       </div>
@@ -24,7 +24,7 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {% include icon-github.html %} <a class = "github-user" href = "https://github.com/jduran7">{{site.github_username}}</a>
           </li>
           {% endif %}
 
@@ -33,7 +33,7 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
-        </ul>
+          <i class="fa fa-codepen" aria-hidden="true"></i> <a class = "codepen-user" href = "https://codepen.io/jduran/#">{{site.codepen_username}}</a>
       </div>
 
       <div class="footer-col footer-col-3">

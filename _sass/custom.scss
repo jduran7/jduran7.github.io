@@ -20,8 +20,23 @@ a.page-link:hover{
 	color: #B5CAFD !important;
 }
 
+a.codepen-user:hover{
+	color: #B5CAFD;
+}
+
+a.github-user:hover{
+	color: #B5CAFD;	
+}
+
+a.gmail:hover{
+	color: #B5CAFD;	
+}
+
 header.site-header{
-	background-color: #626B6E;
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+	background-color: #40404e;
 }
 
 main.page-content{
@@ -36,9 +51,17 @@ a.post-link:hover{
 	color: #ad9171;
 }
 
+.post-title{
+	font-size: 32px;
+	margin-top: 20px;
+}
+
 
 footer.site-footer{
-	background-color: #afa99a;
+	-webkit-box-shadow: 0 -6px 6px -6px #999;
+    -moz-box-shadow: 0 -6px 6px -6px #999;
+    box-shadow: 0 -6px 6px -6px #999;
+	background-color: #24253a;
 }
 
 footer p{
@@ -135,4 +158,8 @@ pre code {
   font-size: 0.8em;
   background-color: transparent;
   border-radius: 8px !important;
+}
+
+.codepen-user {
+	padding-left: 5px;
 }

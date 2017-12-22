@@ -6,9 +6,9 @@ layout: post
 
 I recently made my very own version of the popular game "Simon" in Javascript. It was the final project of freeCodeCamp's front-end development certification and it taught me a lot about object-oriented programming.
 
-You can find a demo here: [https://codepen.io/jduran/pen/Yrbvvg](https://codepen.io/jduran/pen/Yrbvvg)
+You can find a demo [here](https://codepen.io/jduran/pen/Yrbvvg).
 
-This was my approach:
+This was my approach for the logic of the game:
 
 I started by defining the constants LIGHT_DELAY, LIGHT_GAP, and MAX_ROUNDS, which set characteristics of the UI and the game itself, respectively.
 
@@ -18,7 +18,7 @@ const LIGHT_GAP = LIGHT_DELAY / 3;
 const MAX_ROUNDS = 20;
 {% endhighlight %}
 
-Then the class "Round" was defined, along with methods to: keep track of which button was clicked, starting the game, generating random moves, cleaning moves, showing the generated pattern, changing the color intensity of the buttons, playing sounds, and finally checking if the moves generated and played were the same:
+Then the class "Round" was defined, along with methods to: keep track of which button was clicked, starting the game, generating random moves, cleaning moves, showing the generated pattern, changing the color intensity of the buttons, playing sounds, and finally checking if the moves generated and played are the same:
 
 {% highlight javascript %}
 class Round {
