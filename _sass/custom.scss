@@ -14,10 +14,18 @@ a.site-title:hover{
 a.page-link{
 	color: #A0A0A0 !important;
     font-family: 'Archivo Narrow', sans-serif;
+    -webkit-transition: color 0.3s ease-out;
+  	-moz-transition: color 0.3s ease-out;
+  	-o-transition: color 0.3s ease-out;
+  	transition: color 0.3s ease-out;
 }
 
 a.page-link:hover{
-	color: #B5CAFD !important;
+  color: #B5CAFD !important;
+}
+
+.site-nav .page-link:not(:last-child){ 
+	margin-right: 30px; 
 }
 
 a.codepen-user:hover{
@@ -58,10 +66,11 @@ a.post-link:hover{
 
 
 footer.site-footer{
-	-webkit-box-shadow: 0 -6px 6px -6px #999;
-    -moz-box-shadow: 0 -6px 6px -6px #999;
-    box-shadow: 0 -6px 6px -6px #999;
+	-webkit-box-shadow: 0 -7px 6px -6px #999;
+    -moz-box-shadow: 0 -7px 6px -6px #999;
+    box-shadow: 0 -7px 6px -6px #999;
 	background-color: #24253a;
+	border-top: 0px;
 }
 
 footer p{
@@ -83,6 +92,8 @@ header .wrapper {
 
 .site-header{
 	min-height: 50px;
+	border-top: 0px;
+	border-bottom: 0px;
 }
 
 code, kbd, pre, samp { font-family: 'Source Code Pro',Menlo,Monaco,Consolas,"Courier New",monospace; }
