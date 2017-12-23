@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-<img src="/assets/jose.jpg" alt="Drawing" style="width: 200px;"/>
+<img src="/assets/jose.jpg" alt="Drawing" class = "rounded-image" style="width: 200px;"/>
 
 Hi! I'm Jose Duran, a clinical researcher and **software developer** from **Bucaramanga, Colombia.**
 
