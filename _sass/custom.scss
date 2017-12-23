@@ -79,8 +79,13 @@ footer p{
 
 header .wrapper {
 	width: 40%;
+	max-height: 50px;
 	margin: auto;
 	padding: 0;
+}
+
+div.trigger{
+	max-height: 50px;
 }
 
 .site-nav{
