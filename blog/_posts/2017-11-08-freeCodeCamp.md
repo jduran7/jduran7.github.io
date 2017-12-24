@@ -1,3 +1,3 @@
 ---
-title: "freeCodeCamp"
+title: "freeCodeCamp's front-end certification"
 ---
