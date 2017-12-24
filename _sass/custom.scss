@@ -39,10 +39,6 @@ a.page-link:hover{
   color: #B5CAFD !important;
 }
 
-.site-nav .page-link:not(:last-child){ 
-	margin-right: 30px; 
-}
-
 a.codepen-user:hover{
 	color: #B5CAFD;
 }
@@ -92,10 +88,6 @@ header .wrapper {
 	max-height: 50px;
 	margin: auto;
 	padding: 0;
-}
-
-div.trigger{
-	max-height: 50px;
 }
 
 .site-nav{
