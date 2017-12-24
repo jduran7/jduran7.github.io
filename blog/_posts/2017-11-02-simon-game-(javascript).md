@@ -1,12 +1,14 @@
 ---
 layout: post
+title: Simon game (Javascript)
+type: code
 ---
 
 ![alt text](https://images-na.ssl-images-amazon.com/images/I/91TacoMOvIL._SX355_.jpg "Simon")
 
 I recently made my very own version of the popular game "Simon" in Javascript. It was the final project of freeCodeCamp's front-end development certification and it taught me a lot about object-oriented programming.
 
-You can find a demo [here](https://codepen.io/jduran/pen/Yrbvvg).
+You can find a demo [here](https://codepen.io/jduran/full/Yrbvvg/).
 
 This was my approach for the logic of the game:
 
