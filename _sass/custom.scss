@@ -1,3 +1,14 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main.page-content {
+  flex: 1 0 auto;
+}
+
 img{
 	display: block;
     margin: 0 auto;
