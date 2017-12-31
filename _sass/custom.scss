@@ -10,40 +10,40 @@ main.page-content {
 }
 
 img{
-	display: block;
+  display: block;
     margin: 0 auto;
     margin-bottom: 30px;
 }
 
 .rounded-image{
-	border-radius: 50%;
+  border-radius: 50%;
 }
 
 
 .em, em-svg{
-	height: 1em !important;
-	width: 1em !important;
+  height: 1em !important;
+  width: 1em !important;
 }
 
 a:hover{
-	text-decoration: none;
+  text-decoration: none;
 }
 
 a.site-title{
-	color: #ADADAD !important;
+  color: #ADADAD !important;
 }
 
 a.site-title:hover{
-	color: #B5CAFD !important;
+  color: #B5CAFD !important;
 }
 
 a.page-link{
-	color: #A0A0A0 !important;
+  color: #A0A0A0 !important;
     font-family: 'Archivo Narrow', sans-serif;
     -webkit-transition: color 0.3s ease-out;
-  	-moz-transition: color 0.3s ease-out;
-  	-o-transition: color 0.3s ease-out;
-  	transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
 }
 
 a.page-link:hover{
@@ -51,67 +51,67 @@ a.page-link:hover{
 }
 
 a.codepen-user:hover{
-	color: #B5CAFD;
+  color: #B5CAFD;
 }
 
 a.github-user:hover{
-	color: #B5CAFD;	
+  color: #B5CAFD; 
 }
 
 a.gmail:hover{
-	color: #B5CAFD;	
+  color: #B5CAFD; 
 }
 
 header.site-header{
-	-webkit-box-shadow: 0 8px 6px -6px #999;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
-	background-color: #40404e;
+  background-color: #40404e;
 }
 
 a.post-link{
-	color: #F38C1A;
+  color: #F38C1A;
 }
 
 a.post-link:hover{
-	color: #ad9171;
+  color: #ad9171;
 }
 
 .post-title{
-	font-size: 32px;
-	margin-top: 20px;
+  font-size: 32px;
+  margin-top: 20px;
 }
 
 footer.site-footer{
-	-webkit-box-shadow: 0 -7px 6px -6px #999;
+  -webkit-box-shadow: 0 -7px 6px -6px #999;
     -moz-box-shadow: 0 -7px 6px -6px #999;
     box-shadow: 0 -7px 6px -6px #999;
-	background-color: #24253a;
-	border-top: 0px;
+  background-color: #24253a;
+  border-top: 0px;
 }
 
 footer p{
-	color: #FDFDFD;
+  color: #FDFDFD;
 }
 
 header .wrapper {
-	width: 40%;
-	max-height: 50px;
-	margin: auto;
-	padding: 0;
+  width: 40%;
+  max-height: 50px;
+  margin: auto;
+  padding: 0;
 }
 
 .site-nav{
-	text-align: center;
-	float: center;
-	line-height: 50px;
-	float: none;
+  text-align: center;
+  float: center;
+  line-height: 50px;
+  float: none;
 }
 
 .site-header{
-	min-height: 50px;
-	border-top: 0px;
-	border-bottom: 0px;
+  min-height: 50px;
+  border-top: 0px;
+  border-bottom: 0px;
 }
 
 .site-nav .page-link:not(:last-child) {
@@ -194,7 +194,7 @@ pre code {
 }
 
 .codepen-user {
-	padding-left: 5px;
+  padding-left: 5px;
 }
 
 @media screen and (max-width: 1015px) { .site-nav { position: absolute; top: 9px; right: 15px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
@@ -205,3 +205,18 @@ pre code {
   .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; }
   .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 20px; }
   .site-nav .page-link:not(:last-child) { margin-right: 0; } }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper object,
+.videoWrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
