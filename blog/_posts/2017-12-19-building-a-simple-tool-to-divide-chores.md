@@ -5,6 +5,9 @@ title: Building a chore schedule generator (Javascript)
 comments: true
 ---
 
+Defining the problem
+--------------
+
 Let's say you have 6 people working at a basic science lab.
 
 {% highlight javascript %}
@@ -35,6 +38,9 @@ How do you divide the work so that each person takes care of a different task ea
 
 The answer lies in a simple arithmetic operator: **"modulo"**.
 
+Relying on modulo
+-----------
+
 If you're not familiar with the concept, **modulo** is the operation that we use to find the *remainder* after dividing number A by number B.
 
 Here are some examples:
@@ -49,7 +55,7 @@ OK, but how is modulo useful here?
 
 Modulo can help us by generating indexes (1...n), no matter the dimensions of our desired table.
 
-Let's explore that through a more visual example. In this 4x3 table, we have 12 cells that need to be assigned an index. The indexes will later be replaced with the names of the people participating in these activities.
+Let's explore that through a more visual example. In the following 4x3 table, we have 12 cells that need to be assigned an index. The indexes will later be replaced with the names of the people participating in these activities.
 
 >We will be counting from index 0 instead of 1, since this is the way javascript works with indexes. Every number will be divided by 3 since that is the number of tasks in this example.
 
@@ -93,9 +99,25 @@ for(i=0;i<weeks/interval;i++){
 }
 {% endhighlight %}
 
+Here's how the indexes should be looking after applying that fix:
+
+| Task 1 | Task 2 | Task 3 |
+|:--------|:-------:|--------:|
+| 0   | 1   | 2  |
+|----
+| 1   | 2   | 0   |
+|----
+| 2   | 0   | 1   |
+|----
+| 0   | 1   | 2   |
+{: rules="groups"}
+
+Generating the dates
+--------
+
 The labels (dates) for each of the rows were generated using [moment.js](https://momentjs.com/), a popular JavaScript library for handling dates and times.
 
-The following function was used to get the corresponding Monday and Sunday that mark the start and end of the week(s), depending on a specified interval (tasks need to be performed every 1, 2... n weeks):
+The following function was used to get the corresponding Monday and Sunday that mark the start and end of the week(s), depending on a specified interval (tasks need to be performed every 1, 2... n weeks). It also avoids repeating the name of the month if both days in the date range fall within the same month:
 
 {% highlight javascript %}
 function getWeek(x,interval) {
@@ -110,6 +132,9 @@ function getWeek(x,interval) {
 	return firstDay + " - " + lastDay;
 }
 {% endhighlight %}
+
+Randomization
+--------
 
 Since I didn't want to end up with the same table every time we run the script, I implemented a randomizing algorithm (Fisher-Yates):
 
@@ -134,6 +159,9 @@ function shuffle(array) {
   return copy;
 }
 {% endhighlight %}
+
+Putting it all together
+---------
 
 Then, the dates, names and labels for the table are put together. 
 
@@ -162,7 +190,7 @@ function assignChores(people, tasks, weeks, interval){
 }
 {% endhighlight %}
 
-And the HTML table is written. At this point, you can specify the length in weeks of your table, and the intervals (how often do tasks need to be performed). Those two values are passed as the third and fourth arguments to assignChores(). In this case, we are generating a table for 10 weeks and an interval of 2 weeks:
+And now we'll write the HTML table. At this point, you can specify the length in weeks of your table, and the intervals (how often -in weeks- do tasks need to be performed). Those two values are passed as the third and fourth arguments to assignChores(). In this case, we are generating a table for 10 weeks and at an interval of 2 weeks:
 
 {% highlight javascript %}
 //writing the table
@@ -186,6 +214,9 @@ for(r=0;r<rows.length;r++){
 }
 document.write(' <div id="main"><table class="striped centered">' + table + '</table></div>');
 {% endhighlight %}
+
+Making it pretty
+-------------
 
 I added some extra jQuery functionality to let people mark if they have already completed a task, which is represented by a green checkmark that pops up right next to their name when their name is clicked.
 

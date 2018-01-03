@@ -2,9 +2,10 @@
 layout: post
 title: Building a clone of the game Simon (Javascript)
 type: code
+comments: true
 ---
 
-![alt text](https://images-na.ssl-images-amazon.com/images/I/91TacoMOvIL._SX355_.jpg "Simon")
+<img src="/assets/simon_game.jpg" alt="Drawing" style="width: 100%; height: auto; text-align: center;"/>
 
 I recently made my very own version of the popular game "Simon" in Javascript. It was the final project of freeCodeCamp's front-end development certification and it taught me a lot about object-oriented programming.
 
