@@ -1,5 +1,6 @@
 ---
 title: "Connecting physicians and labs in Boston"
+comments: true
 ---
 
 <img src="/assets/iri.png" alt="Drawing" style="width: 300px; text-align: center;"/>

@@ -2,6 +2,7 @@
 layout: post
 type: code
 title: Building a chore schedule generator (Javascript)
+comments: true
 ---
 
 Let's say you have 6 people working at a basic science lab.
