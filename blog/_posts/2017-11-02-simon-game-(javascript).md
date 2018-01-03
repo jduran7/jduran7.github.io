@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simon game (Javascript)
+title: Building a clone of the game Simon (Javascript)
 type: code
 ---
 

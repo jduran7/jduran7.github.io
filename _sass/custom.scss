@@ -1,24 +1,25 @@
 html, body {
   height: 100%;
 }
+
 body {
   display: flex;
   flex-direction: column;
 }
+
 main.page-content {
   flex: 1 0 auto;
 }
 
 img{
   display: block;
-    margin: 0 auto;
-    margin-bottom: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .rounded-image{
   border-radius: 50%;
 }
-
 
 .em, em-svg{
   height: 1em !important;
@@ -39,11 +40,11 @@ a.site-title:hover{
 
 a.page-link{
   color: #A0A0A0 !important;
-    font-family: 'Archivo Narrow', sans-serif;
-    -webkit-transition: color 0.3s ease-out;
-    -moz-transition: color 0.3s ease-out;
-    -o-transition: color 0.3s ease-out;
-    transition: color 0.3s ease-out;
+  font-family: 'Archivo Narrow', sans-serif;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 
 a.page-link:hover{
@@ -64,8 +65,8 @@ a.gmail:hover{
 
 header.site-header{
   -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
   background-color: #40404e;
 }
 
@@ -84,8 +85,8 @@ a.post-link:hover{
 
 footer.site-footer{
   -webkit-box-shadow: 0 -7px 6px -6px #999;
-    -moz-box-shadow: 0 -7px 6px -6px #999;
-    box-shadow: 0 -7px 6px -6px #999;
+  -moz-box-shadow: 0 -7px 6px -6px #999;
+  box-shadow: 0 -7px 6px -6px #999;
   background-color: #24253a;
   border-top: 0px;
 }
@@ -115,7 +116,7 @@ header .wrapper {
 }
 
 .site-nav .page-link:not(:last-child) {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 code, kbd, pre, samp { font-family: 'Source Code Pro',Menlo,Monaco,Consolas,"Courier New",monospace; }
@@ -219,4 +220,22 @@ pre code {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  border:2px solid #ff0000;
+}
+
+th{
+  border:2px solid #000000;
+  background-color: yellow;
+  padding:6px;
+}
+
+td{
+  border:1px solid #000000;
+  padding: 6px;
+  text-align: center !important;
 }

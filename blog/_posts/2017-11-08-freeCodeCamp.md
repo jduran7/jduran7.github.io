@@ -2,7 +2,7 @@
 title: "freeCodeCamp's front-end certification"
 ---
 
-One of my goals this year was to finish freeCodeCamp's front-end material. As its name implies, freeCodeCamp is a free programming course that could be compared with a programming bootcamp. It was developed and is maintained by volunteers, and it's currently one of the most starred [repositories](https://github.com/freecodecamp/) on Github.
+One of my goals this year was to finish freeCodeCamp's front-end material. As its name implies, freeCodeCamp is a free programming course that could be compared with a programming bootcamp. It was developed and is maintained by volunteers, and it's currently one of the most starred [repositories](https://github.com/freeCodeCamp/freeCodeCamp) on Github.
 
 freeCodeCamp teaches you HTML, CSS, Javascript and jQuery. That knowledge is then tested through programming challenges and projects of different complexity. I ended up completing the following projects:
 

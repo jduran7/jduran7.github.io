@@ -20,6 +20,6 @@ The website has been well received, and our outreach has increased significantly
 
 <img src="/assets/google_analytics.png" alt="Drawing" style="width: 500px; text-align: center;"/>
 
-If you happen to know a medical student or graduate who might be interested in the program, don't hesitate to tell them about us. We are recruiting candidates on a yearly basis, usually around June/July, expecting them to start working on a lab around March the next year after being accepted.
+If you happen to know a medical student or graduate who might be interested in the program, don't hesitate to tell them about us. We are recruiting candidates on a yearly basis, usually around June/July, expecting them to start working in a lab around March the next year after being accepted.
 
 I'd like to thank [Dmitry Fedosov](http://dimafeng.com) for his help reviewing my code along the process and for introducing me to the concept of version control, which made my life a lot easier.

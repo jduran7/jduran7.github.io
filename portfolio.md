@@ -5,13 +5,13 @@ permalink: /portfolio/
 ---
 
 
-Simon
+Simon game
 
 International Research Initiative
 
-Tic Tac Toe
+Tic-Tac-Toe
 
 Twitch viewer
 
-Daily Art
+isItRaining
 
