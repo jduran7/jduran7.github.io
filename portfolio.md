@@ -15,3 +15,4 @@ Twitch viewer
 
 isItRaining
 
+choreScheduleGenerator

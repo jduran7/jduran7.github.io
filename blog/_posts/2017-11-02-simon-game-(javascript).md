@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Building a clone of the game Simon (Javascript)
+title: Building a clone of "Simon" (JavaScript)
 type: code
 comments: true
 ---
 
 <img src="/assets/simon_game.jpg" alt="Drawing" style="width: 100%; height: auto; text-align: center;"/>
 
-I recently made my very own version of the popular game "Simon" in Javascript. It was the final project of freeCodeCamp's front-end development certification and it taught me a lot about object-oriented programming.
+I recently made my very own version of the popular game "Simon" in JavaScript. It was the final project of freeCodeCamp's front-end development certification and it taught me a lot about object-oriented programming.
 
 You can find a demo [here](https://codepen.io/jduran/full/Yrbvvg/).
 

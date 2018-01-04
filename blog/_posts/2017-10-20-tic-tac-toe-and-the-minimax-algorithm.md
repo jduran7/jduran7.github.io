@@ -1,6 +1,8 @@
 ---
 title: "Tic-Tac-Toe and the Minimax algorithm"
 type: code
+comments: true
+published: false
 ---
 
 I had to build a tic-tac-toe game as part of the coding challenges from [freeCodeCamp](http://www.freecodecamp.com). The most interesting part of the project was probably learning about the Minimax algorithm, a simple artificial intelligence algorithm that keeps track of all the different combinations of plays that each player could make and then finds out which one would be the most beneficial to that player based on a score that it calculates.

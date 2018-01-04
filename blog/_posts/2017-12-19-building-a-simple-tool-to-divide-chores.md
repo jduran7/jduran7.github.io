@@ -1,7 +1,7 @@
 ---
 layout: post
 type: code
-title: Building a chore schedule generator (Javascript)
+title: Building a chore schedule generator (JavaScript)
 comments: true
 ---
 
@@ -57,7 +57,7 @@ Modulo can help us by generating indexes (1...n), no matter the dimensions of ou
 
 Let's explore that through a more visual example. In the following 4x3 table, we have 12 cells that need to be assigned an index. The indexes will later be replaced with the names of the people participating in these activities.
 
->We will be counting from index 0 instead of 1, since this is the way javascript works with indexes. Every number will be divided by 3 since that is the number of tasks in this example.
+>We will be counting from index 0 instead of 1, since this is the way JavaScript works with indexes. Every number will be divided by 3 since that is the number of tasks in this example.
 
 | Task 1 | Task 2 | Task 3 |
 |:--------|:-------:|--------:|
