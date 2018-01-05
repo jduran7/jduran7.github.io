@@ -73,18 +73,20 @@ header.site-header{
 }
 
 a.post-link{
-  color: #F38C1A;
-  font-family: 'Concert One', cursive;
+  color: #4C4746;
+  font-family: Hind;
   line-height: 1.1;
+  font-weight:600
 }
 
 a.post-link:hover{
-  color: #ad9171;
+  color: #547791;
 
 }
 
 .post-title{
   margin-top: 20px;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .post-list{
@@ -94,6 +96,10 @@ a.post-link:hover{
 .post-list > li {
   margin-bottom: 60px;
   line-height: 1em;
+}
+
+.post-content {
+  font-family: Hind;
 }
 
 h2{
@@ -215,7 +221,7 @@ pre code {
   padding-left: 5px;
 }
 
-@media screen and (max-width: 1015px) { .site-nav { position: absolute; top: 9px; right: 15px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
+@media screen and (max-width: 1015px) { .site-nav { position: absolute; top: 6px; right: 15px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
   .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
   .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
   .site-nav .menu-icon > svg path { fill: #424242; }

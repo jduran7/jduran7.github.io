@@ -12,7 +12,7 @@ One of the best experiences since joining my current job has been to give back b
 
 The quantity and quality of research being done in the developing world, both basic and clinical, is limited in many cases due to lack of funding and poor infrastructure. Many talented investigators end up giving up their dreams of contributing to the field and find themselves being forced to work exclusively as clinicians (seeing patients).
 
-The **International Research Initiative (IRI)** tries to tackle this problem by recruiting talented physicians who are fluent in English and helping them find a lab in Boston that fits their academic interests. Candidates are interviewed on a yearly basis, and the whole program is ran by volunteers who also came from developing countries.
+The **International Research Initiative (IRI)** tries to tackle this problem by recruiting talented physicians who are fluent in English and helping them find a lab in Boston that fits their academic interests. Candidates are interviewed on a yearly basis, and the whole program is ran by researchers who are also from developing countries.
 
 Strategy
 -----------
