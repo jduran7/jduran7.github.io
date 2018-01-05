@@ -24,7 +24,9 @@ img{
 .em, em-svg{
   height: 1em !important;
   width: 1em !important;
+  margin-left: 0px;
 }
+
 
 a:hover{
   text-decoration: none;
@@ -72,14 +74,26 @@ header.site-header{
 
 a.post-link{
   color: #F38C1A;
+  font-family: 'Concert One', cursive;
+  line-height: 1.1;
 }
 
 a.post-link:hover{
   color: #ad9171;
+
 }
 
 .post-title{
   margin-top: 20px;
+}
+
+.post-list{
+  margin-top: 50px;
+}
+
+.post-list > li {
+  margin-bottom: 60px;
+  line-height: 1em;
 }
 
 h2{
