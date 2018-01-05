@@ -14,7 +14,7 @@ freeCodeCamp teaches you HTML, CSS, JavaScript and jQuery. That knowledge is the
 * A panel that shows you which [Twitch users](https://codepen.io/jduran/pen/jGOmNV) are currently streaming
 * A [Pomodoro](https://codepen.io/jduran/pen/qPPdPr) clock
 * A Wikipedia [viewer](https://codepen.io/jduran/pen/QMYwxR)
-* A JavaScript [calculator](https://codepen.io/jduran/pen/ZaVYvN)
+* A JavaScript [calculator](https://codepen.io/jduran/full/WdZMVg/)
 * A [tic-tac-toe](https://codepen.io/jduran/pen/yPRvdP) game
 * A [Simon](https://codepen.io/jduran/pen/Yrbvvg) game
 
