@@ -1,3 +1,5 @@
+@import "table";
+
 html, body {
   height: 100%;
 }
@@ -247,20 +249,20 @@ pre code {
   height: 100%;
 }
 
-table{
-  border-collapse: collapse;
-  border-spacing: 0;
-  border:2px solid #ff0000;
-}
+// table{
+//   border-collapse: collapse;
+//   border-spacing: 0;
+//   border:2px solid #ff0000;
+// }
 
-th{
-  border:2px solid #000000;
-  background-color: yellow;
-  padding:6px;
-}
+// th{
+//   border:2px solid #000000;
+//   background-color: yellow;
+//   padding:6px;
+// }
 
-td{
-  border:1px solid #000000;
-  padding: 6px;
-  text-align: center !important;
-}
+// td{
+//   border:1px solid #000000;
+//   padding: 6px;
+//   text-align: center !important;
+// }

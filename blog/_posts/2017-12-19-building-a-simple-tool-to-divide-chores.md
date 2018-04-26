@@ -60,8 +60,8 @@ Let's explore that through a more visual example. In the following 4x3 table, we
 >We will be counting from index 0 instead of 1, since this is the way JavaScript works with indexes. Every number will be divided by 3 since that is the number of tasks in this example.
 
 | Task 1 | Task 2 | Task 3 |
-|:--------|:-------:|--------:|
-| 0%3   | 1%3   | 2%3  |
+|:--------:|:-------:|:-------:|
+| 0%3 | 1%3 | 2%3 |
 |----
 | 3%3   | 4%3   | 5%3   |
 |----
@@ -74,7 +74,7 @@ Let's explore that through a more visual example. In the following 4x3 table, we
 Which translates to the following once we perform the operations:
 
 | Task 1 | Task 2 | Task 3 |
-|:--------|:-------:|--------:|
+|:--------:|:-------:|:--------:|
 | 0   | 1   | 2  |
 |----
 | 0   | 1   | 2   |
@@ -102,7 +102,7 @@ for(i=0;i<weeks/interval;i++){
 Here's how the indexes should be looking after applying that fix:
 
 | Task 1 | Task 2 | Task 3 |
-|:--------|:-------:|--------:|
+|:--------:|:-------:|:--------:|
 | 0   | 1   | 2  |
 |----
 | 1   | 2   | 0   |
