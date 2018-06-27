@@ -4,10 +4,13 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-
-Simon game
-
 International Research Initiative
+
+Program applications client
+
+Chores schedule generator
+
+
 
 Tic-Tac-Toe
 
@@ -15,4 +18,5 @@ Twitch viewer
 
 isItRaining
 
-choreScheduleGenerator
+
+Simon Game

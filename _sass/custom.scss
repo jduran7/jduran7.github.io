@@ -141,19 +141,28 @@ header .wrapper {
   padding: 0;
 }
 
+//navbar 
 .site-nav{
-  text-align: center;
-  float: center;
-  line-height: 80px;
-  float: none;
+  // text-align: center;
+  // float: center;
+  // line-height: 80px;
+  // float: none;
   background-color:lightblue;
+  // padding: 10px 16px;
+  // background: #555;
+  // color: #f1f1f1;
+  position: fixed;
+  // padding:0 120px;
+  width: 766px;
+  top: 0;
+  text-align: center;
+  margin-top: 8px;
 }
 
 .site-header{
-  min-height: 80px;
+  // min-height: 80px;
   border-top: 0px;
   border-bottom: 0px;
-  
 }
 
 .site-nav .page-link:not(:last-child) {
@@ -263,40 +272,7 @@ pre code {
   height: 100%;
 }
 
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  // top: 0;
-  // left: 20px;
-  min-width: 766px;
-  // min-width: 740px;
-  // background: lightblue;
-}
-
+//add offset to blog post dates
 li > span {
   margin-left: 20px;
 }
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-// .sticky + .content {
-//   padding-top: 102px;
-// }
-
-
-// table{
-//   border-collapse: collapse;
-//   border-spacing: 0;
-//   border:2px solid #ff0000;
-// }
-
-// th{
-//   border:2px solid #000000;
-//   background-color: yellow;
-//   padding:6px;
-// }
-
-// td{
-//   border:1px solid #000000;
-//   padding: 6px;
-//   text-align: center !important;
-// }
