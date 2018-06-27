@@ -20,4 +20,6 @@ freeCodeCamp teaches you HTML, CSS, JavaScript and jQuery. That knowledge is the
 
 Once you're done with all the challenges and projects, you are given a certificate. Here's mine:
 
-<img src="/assets/fcc_certificate.png" alt="Drawing" style="width: 500px; text-align: center;"/>
+<div class="img-centered">
+	<img src="/assets/fcc_certificate.png" alt="Drawing" style="width: 500px; text-align: center;"/>
+</div>

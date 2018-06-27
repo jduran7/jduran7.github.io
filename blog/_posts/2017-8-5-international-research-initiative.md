@@ -2,8 +2,9 @@
 title: "Connecting physicians and labs in Boston"
 comments: true
 ---
-
-<img src="/assets/laboratory.jpg" alt="Drawing" style="width: 100%; height:auto;"/>
+<div class="img-centered">
+	<img src="/assets/laboratory.jpg" alt="Drawing" style="width: 100%; height:auto;"/>
+</div>
 
 Giving back
 -----------
@@ -12,7 +13,9 @@ One of the best experiences since joining my current job has been to give back b
 
 The quantity and quality of research being done in the developing world, both basic and clinical, is limited in many cases due to lack of funding and poor infrastructure. Many talented investigators end up giving up their dreams of contributing to the field and find themselves being forced to work exclusively as clinicians (seeing patients).
 
-<img src="/assets/iri.png" alt="Drawing" style="width: 50%; height:auto;"/>
+<div class="img-centered">
+	<img src="/assets/iri.png" alt="Drawing" style="width: 50%; height:auto;"/>
+</div>
 
 The **International Research Initiative (IRI)** tries to tackle this problem by recruiting talented physicians who are fluent in English and helping them find a lab in Boston that fits their academic interests. Candidates are interviewed on a yearly basis, and the whole program is ran by researchers who are also from developing countries.
 
@@ -32,11 +35,15 @@ Results
 
 The website has been well received, and our outreach has increased significantly. We have had **4188** visitors from all over the world since the program was created.  
 
-<img src="/assets/map.png" alt="Drawing" style="width: 100%; height: auto; text-align: center;"/>
+<div class="img-centered">
+	<img src="/assets/map.png" alt="Drawing" style="width: 100%; height: auto; text-align: center;"/>
+</div>
 
 Here's a summary of our demographics (top visitor countries):
 
-<img src="/assets/countries.png" alt="Drawing" style="width: 100%; height: auto; text-align: center;"/>
+<div class="img-centered">
+	<img src="/assets/countries.png" alt="Drawing" style="width: 100%; height: auto; text-align: center;"/>
+</div>
 
 If you happen to know a medical student or graduate who might be interested in the program, don't hesitate to tell them about us. We are recruiting candidates on a yearly basis, usually around June/July, expecting them to start working in a lab around March the next year after being accepted.
 

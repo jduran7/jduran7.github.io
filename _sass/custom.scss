@@ -12,12 +12,14 @@ body {
 
 main.page-content {
   flex: 1 0 auto;
+  padding-top:70px;
+  background-color: #9d36ea
 }
 
-img{
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 30px;
+.img-centered > img{
+  display: block !important;
+  margin: 0 auto !important;
+  margin-bottom: 30px !important;
 }
 
 .rounded-image{
@@ -76,6 +78,7 @@ header.site-header{
   // margin:auto;
   // padding:0;
   // font-family: 'Viga', sans-serif !important; 
+
 }
 
 a.post-link{
@@ -92,17 +95,20 @@ a.post-link:hover{
 .post-title{
   margin-top: 20px;
   font-family: 'Roboto', sans-serif;
-  font-size: 32px;
+  /*font-size: 32px;*/
 }
 
 // .post-list{
 //   margin-top: 50px;
 // }
 
-.post-list > li {
-  margin-bottom: 60px;
+.post-list > li{
   line-height: 1em;
   padding-left: 30px;
+}
+
+.post-list > li:not(:last-child){
+  margin-bottom: 60px;
 }
 
 .post-header{
@@ -112,6 +118,8 @@ a.post-link:hover{
 .post-content {
   font-family: Hind;
   padding-left:20px;
+  /*padding-top:50px;*/
+  background: white;
 }
 
 .techicon{
@@ -120,6 +128,7 @@ a.post-link:hover{
 
 h2{
   margin-top: 40px;
+  line-height:1em;
 }
 
 footer.site-footer{
@@ -142,27 +151,38 @@ header .wrapper {
 }
 
 //navbar 
+
+@media (min-width: 766px){
+  .site-nav{
+    width: 766px;
+    height:80px;
+  }
+}
+
 .site-nav{
   // text-align: center;
   // float: center;
-  // line-height: 80px;
+  line-height: 80px;
   // float: none;
-  background-color:lightblue;
+  background-color:white;
   // padding: 10px 16px;
   // background: #555;
   // color: #f1f1f1;
   position: fixed;
   // padding:0 120px;
-  width: 766px;
   top: 0;
   text-align: center;
-  margin-top: 8px;
+  /*margin-top: 8px;*/
 }
 
 .site-header{
-  // min-height: 80px;
+  min-height: 80px;
   border-top: 0px;
   border-bottom: 0px;
+  width: 100vw;
+  background: white;
+  position: fixed !important;
+  opacity:0.99;
 }
 
 .site-nav .page-link:not(:last-child) {
@@ -248,7 +268,7 @@ pre code {
   padding-left: 5px;
 }
 
-@media screen and (max-width: 766px) { .site-nav { position: absolute; top: 22px; right: 22px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
+@media screen and (max-width: 765px) { .site-nav { position: absolute; top: 22px; right: 32px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
   .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
   .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
   .site-nav .menu-icon > svg path { fill: #424242; }
@@ -274,5 +294,5 @@ pre code {
 
 //add offset to blog post dates
 li > span {
-  margin-left: 20px;
+  margin-left: 30px;
 }
