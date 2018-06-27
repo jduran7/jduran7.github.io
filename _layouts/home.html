@@ -13,7 +13,7 @@ layout: default
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">> {{ post.title | escape }}
+          <a class="post-link" href="{{ post.url | relative_url }}"><i class="em em-page_facing_up"></i> {{ post.title | escape }}
           {% if post.type == "code"%}
             <i class="em em-hammer"></i>
           {% endif %}

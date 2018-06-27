@@ -95,17 +95,23 @@ a.post-link:hover{
   font-size: 32px;
 }
 
-.post-list{
-  margin-top: 50px;
-}
+// .post-list{
+//   margin-top: 50px;
+// }
 
 .post-list > li {
   margin-bottom: 60px;
   line-height: 1em;
+  padding-left: 30px;
+}
+
+.post-header{
+  padding-left:20px;
 }
 
 .post-content {
   font-family: Hind;
+  padding-left:20px;
 }
 
 .techicon{
@@ -141,7 +147,6 @@ header .wrapper {
   line-height: 80px;
   float: none;
   background-color:lightblue;
-
 }
 
 .site-header{
@@ -234,7 +239,7 @@ pre code {
   padding-left: 5px;
 }
 
-@media screen and (max-width: 1015px) { .site-nav { position: absolute; top: 22px; right: 22px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
+@media screen and (max-width: 766px) { .site-nav { position: absolute; top: 22px; right: 22px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
   .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
   .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
   .site-nav .menu-icon > svg path { fill: #424242; }
@@ -263,9 +268,13 @@ pre code {
   position: fixed;
   // top: 0;
   // left: 20px;
-  min-width: 740px;
+  min-width: 766px;
   // min-width: 740px;
   // background: lightblue;
+}
+
+li > span {
+  margin-left: 20px;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
