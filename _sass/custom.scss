@@ -13,7 +13,10 @@ body {
 main.page-content {
   flex: 1 0 auto;
   padding-top:70px;
-  background-color: #9d36ea
+  // background-color: #9d36ea
+  // background: #faf linear-gradient(160deg, #faf, #88f);
+  // background: linear-gradient(160deg, #daaaff, #373790)
+  background: linear-gradient(160deg, #aaffd8, #373790);
 }
 
 .img-centered > img{
@@ -24,6 +27,9 @@ main.page-content {
 
 .rounded-image{
   border-radius: 50%;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .em, em-svg{
@@ -88,19 +94,34 @@ a.post-link{
   font-weight:400;
 }
 
+ ul.post-list > li:nth-child(1) > h2 > a{
+  padding-top: 20px;
+}
+
 a.post-link:hover{
   color: #547791;
 }
 
 .post-title{
   margin-top: 20px;
+  padding-top:20px;
   font-family: 'Roboto', sans-serif;
   /*font-size: 32px;*/
 }
 
-// .post-list{
-//   margin-top: 50px;
-// }
+h1.post-title{
+  font-size: 32px;
+}
+
+.post-list{
+  background: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  // padding-top: 2px;
+  padding-bottom: 10px;
+  // margin-top: 50px;
+  border-radius: 5px;
+}
 
 .post-list > li{
   line-height: 1em;
@@ -117,8 +138,7 @@ a.post-link:hover{
 
 .post-content {
   font-family: Hind;
-  padding-left:20px;
-  /*padding-top:50px;*/
+  padding: 20px 70px;
   background: white;
 }
 
@@ -178,7 +198,7 @@ header .wrapper {
 .site-header{
   min-height: 80px;
   border-top: 0px;
-  border-bottom: 0px;
+  border-bottom: 1px solid #f3f3f3;
   width: 100vw;
   background: white;
   position: fixed !important;
@@ -268,7 +288,7 @@ pre code {
   padding-left: 5px;
 }
 
-@media screen and (max-width: 765px) { .site-nav { position: absolute; top: 22px; right: 32px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
+@media screen and (max-width: 765px) { .site-nav { position: absolute; top: 22px; right: 32px; background-color: #bdbdbd; border: 1px solid #a09d9d; border-radius: 5px; text-align: right; }
   .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
   .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
   .site-nav .menu-icon > svg path { fill: #424242; }
@@ -295,4 +315,132 @@ pre code {
 //add offset to blog post dates
 li > span {
   margin-left: 30px;
+}
+
+article.post{
+  background: white;
+  border-radius: 5px;
+}
+
+.btn {
+  background: #7869fb;
+  border: 1px solid #7869fb;
+  padding: 10px 13px;
+  width: 150px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 0.6px;
+  border-radius: 32px;
+  text-decoration: none;
+}
+
+.btn:hover{
+    background: #1faac1;
+    border: 1px solid #1faac1;
+    color: white;
+    cursor: pointer;
+}
+
+a.btn:visited{
+  color: white;
+}
+
+
+.em-open_file_folder{
+  margin-top: -5px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.interested {
+  font-size: 32px;
+  font-family: 'Roboto';
+  background:grey;
+  padding:20px;
+}
+
+.interested >i{
+  margin-bottom:3px;
+}
+
+.project-container{
+  width: 310px;
+  // background: red;
+  border: solid 1px grey;
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom:30px;
+}
+
+.project-description > ul {
+  color:blue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+// ul.techs > li a {
+//   display: block;
+//   width: 60px;
+// }
+
+ul.techs > li{
+  display: inline;
+  padding:10px;
+  text-decoration: none;
+}
+
+.project-description > span.section-label{
+  background: grey;
+  
+}
+
+.section-label{
+  width:100%;
+  background: #424242;
+  color: #bdbdbd;
+}
+
+.section-label > span{
+  padding-left: 10px;
+}
+
+.project-description > p{
+  padding-left: 10px;
+  padding-top:5px;
+  line-height: 1.2em;
+}
+
+ul.techs{
+  padding-top:5px;
+}
+
+.project-actions {
+  padding-top: 15px;
+  // float: right;
+  padding-right: 5px;
+  margin-bottom: 0;
+  text-align:center;
+}
+
+ #iri-dashboard{
+  height: 360px;
+}
+
+#iri-website{
+  height: 360px;
+}
+
+.project-image > img{
+  width: 310px;
+  height:150px;
 }

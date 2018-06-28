@@ -9,7 +9,7 @@ permalink: /about/
 </div>
 <!-- <img class="img-centered" src="/assets/jose.jpg" alt="Drawing" class = "rounded-image" style="width: 200px;"/> -->
 
-Hi! I'm Jose Duran, a clinical researcher and **software developer** from **Bucaramanga, Colombia.**
+Hi! I'm Jose Duran, a clinical researcher and **software developer** from **Colombia.**
 
 I live in **Boston** and work as a **postdoctoral research fellow** at **Harvard Medical School**. My main research interests are **robotic radiosurgery** and **immunotherapy**.
 
