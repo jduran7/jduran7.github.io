@@ -4,11 +4,11 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-Software projects:
---------
+<!-- Software projects:
+-------- -->
 
 
-### International Research Initiative
+### Sofware development projects:
 
 
 <div class="project-container" id="iri-website">
@@ -34,11 +34,6 @@ Software projects:
         </div>
     </div>
 </div>
-
-
-
-### Evaluators dashboard
-
 <div class="project-container" id="iri-dashboard">
     <div class="project-image">
         <img src="/assets/laboratory.jpg" alt="Project_image" style="width:250px, height:auto"/>
@@ -64,10 +59,7 @@ Software projects:
     </div>
 </div>
 
-
-<a class="btn noselect">View Demo</a>
-
-### Chores schedule generator
+<!-- ### Chores schedule generator
 
 
 Technologies: ReactJS, JavaScript.
@@ -79,5 +71,30 @@ Technologies: ReactJS, JavaScript.
 
 Technologies: R, d3.js, JavaScript, MongoDB.
 
-<a class="btn noselect">View Demo</a>
+<a class="btn noselect">View Demo</a> -->
 
+
+### Other projects:
+
+<div class="project-container" id="rogers-dictionary">
+    <div class="project-image">
+        <img src="/assets/rogers_dictionary.png" alt="Project_image" style="width:250px, height:auto"/>
+    </div>
+    <div class="project-description">
+        <div class="section-label">
+            <span>Project description</span>
+        </div>
+        <p>Content editor for a Spanish/English medical dictionary published by McGraw-Hill Medical. 5 stars rating on <a href="https://www.amazon.com/English-Spanish-Spanish-English-Medical-Dictionary-Fourth/dp/0071829113/">Amazon</a>.</p>
+        <div class="section-label">
+            <span>Skills</span>
+        </div>
+        <ul class="techs">
+            <li><a>Writing/Editing</a></li>
+            <li><a>Geographic neutrality</a></li>
+        </ul>
+        <div class="project-actions">
+            <a class="btn noselect" href="https://www.amazon.com/English-Spanish-Spanish-English-Medical-Dictionary-Fourth/dp/0071829113/">View Book</a>
+            <a class="btn noselect" href="https://accessmedicine.mhmedical.com/content.aspx?bookid=2248&sectionid=174576320">Read Preface</a>
+        </div>
+    </div>
+</div>

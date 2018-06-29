@@ -139,6 +139,7 @@ h1.post-title{
 .post-content {
   font-family: Hind;
   padding: 20px 70px;
+  // padding: 20px 50px;
   background: white;
 }
 
@@ -375,10 +376,11 @@ a.btn:visited{
 
 .project-container{
   width: 310px;
-  // background: red;
   border: solid 1px grey;
   border-radius: 0px 0px 5px 5px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
+  display: inline-block;
+  /* padding: 13px; */
 }
 
 .project-description > ul {
@@ -433,14 +435,35 @@ ul.techs{
 }
 
  #iri-dashboard{
-  height: 360px;
+  height: 350px;
 }
 
 #iri-website{
-  height: 360px;
+  height: 350px;
+}
+
+#rogers-dictionary{
+  height: 350px;
 }
 
 .project-image > img{
   width: 310px;
   height:150px;
+}
+
+#portfolio-content{
+  padding: 20px 30px !important;
+  // background: red;
+}
+
+@media(min-width: 755px){
+  .project-container + .project-container{
+    margin-left:20px;
+  }
+}
+
+
+.project-description > p{
+  padding-bottom: 4px;
+  margin-bottom: 0;
 }
