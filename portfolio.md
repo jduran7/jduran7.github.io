@@ -84,7 +84,7 @@ Technologies: R, d3.js, JavaScript, MongoDB.
         <div class="section-label">
             <span>Project description</span>
         </div>
-        <p>Content editor for a Spanish/English medical dictionary published by McGraw-Hill Medical. 5 stars rating on <a href="https://www.amazon.com/English-Spanish-Spanish-English-Medical-Dictionary-Fourth/dp/0071829113/">Amazon</a>.</p>
+        <p>Content editor for a Spanish/English medical dictionary published by McGraw-Hill Medical.<br> 5-star rating on <a href="https://www.amazon.com/English-Spanish-Spanish-English-Medical-Dictionary-Fourth/dp/0071829113/">Amazon</a>.</p>
         <div class="section-label">
             <span>Skills</span>
         </div>
