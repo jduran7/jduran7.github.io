@@ -141,6 +141,7 @@ h1.post-title{
   padding: 20px 70px;
   // padding: 20px 50px;
   background: white;
+  border-radius: 32px;
 }
 
 .techicon{
@@ -324,27 +325,31 @@ article.post{
 }
 
 .btn {
-  background: #7869fb;
+  background: transparent;
   border: 1px solid #7869fb;
   padding: 10px 13px;
   width: 150px;
   font-family: 'Noto Sans', sans-serif;
   font-size: 14px;
   font-weight: 500;
-  color: white;
+  color: #7869fb;
   letter-spacing: 0.6px;
   border-radius: 32px;
   text-decoration: none;
 }
 
 .btn:hover{
-    background: #1faac1;
-    border: 1px solid #1faac1;
+    background: #7869fb;
+    border: 1px solid #7869fb;
     color: white;
     cursor: pointer;
 }
 
 a.btn:visited{
+  color: #7869fb;
+}
+
+a.btn:visited:hover{
   color: white;
 }
 
@@ -376,24 +381,28 @@ a.btn:visited{
 
 .project-container{
   width: 310px;
-  border: solid 1px grey;
+  border: solid 1px #cccbcb;
   border-radius: 0px 0px 5px 5px;
   margin-bottom: 30px;
   display: inline-block;
   /* padding: 13px; */
+    -moz-box-shadow:    2px 1px 2px 2px rgb(214, 214, 214);
+    -webkit-box-shadow: 2px 1px 2px 2px rgb(214, 214, 214);
+    box-shadow:         2.2px 3.6px 0.9px 0.3px #c9c9c9;
+  background: white;
 }
 
 .project-description > ul {
-  color:blue;
+  color: #272822;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-// ul.techs > li a {
-//   display: block;
-//   width: 60px;
-// }
+ul.techs > li a {
+  color: #656565 !important;
+  // color:#4040dd !important;
+}
 
 ul.techs > li{
   display: inline;
@@ -409,41 +418,54 @@ ul.techs > li{
 .section-label{
   width:100%;
   background: #424242;
-  color: #bdbdbd;
+  color: #eaeaea;
 }
 
 .section-label > span{
   padding-left: 10px;
 }
 
+.section-label > span{
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .project-description > p{
   padding-left: 10px;
-  padding-top:5px;
-  line-height: 1.2em;
+  padding-top:6px;
+  line-height: 1.1em;
 }
 
 ul.techs{
   padding-top:5px;
+  font-size: 13px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px lightgrey;
 }
 
 .project-actions {
-  padding-top: 15px;
+  padding-top: 18px;
   // float: right;
-  padding-right: 5px;
+  padding-right: 10px;
   margin-bottom: 0;
   text-align:center;
 }
 
+a.btn + a.btn {
+  margin-left: 10px;
+}
+
  #iri-dashboard{
-  height: 350px;
+  height: 342px;
 }
 
 #iri-website{
-  height: 350px;
+  height: 342px;
 }
 
 #rogers-dictionary{
-  height: 350px;
+  height: 342px;
 }
 
 .project-image > img{
@@ -453,7 +475,8 @@ ul.techs{
 
 #portfolio-content{
   padding: 20px 30px !important;
-  // background: red;
+  background: #f8efff;
+  background: white;
 }
 
 @media(min-width: 755px){
@@ -466,4 +489,10 @@ ul.techs{
 .project-description > p{
   padding-bottom: 4px;
   margin-bottom: 0;
+  color: #484848 !important;
+  font-size: 14px;
+}
+
+.first-in-row{
+  margin-left: 0px !important;
 }

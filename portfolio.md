@@ -8,10 +8,10 @@ permalink: /portfolio/
 -------- -->
 
 
-### Sofware development projects:
+<!-- ### Sofware development projects: -->
 
 
-<div class="project-container" id="iri-website">
+<div class="project-container noselect first-in-row" id="iri-website">
     <div class="project-image">
         <img src="/assets/og_logo.png" alt="Project_image" style="width:250px, height:auto"/>
     </div>
@@ -19,7 +19,7 @@ permalink: /portfolio/
         <div class="section-label">
             <span>Project description</span>
         </div>
-        <p>Website for a clinical research exchange program, including a module to process applications. Total site visitors: ~ 4200.</p>
+        <p>Website for a clinical research exchange program, including a module to process applications.<br>Total site visitors: ~ 4200.</p>
         <div class="section-label">
             <span>Technologies</span>
         </div>
@@ -34,7 +34,7 @@ permalink: /portfolio/
         </div>
     </div>
 </div>
-<div class="project-container" id="iri-dashboard">
+<div class="project-container noselect" id="iri-dashboard">
     <div class="project-image">
         <img src="/assets/laboratory.jpg" alt="Project_image" style="width:250px, height:auto"/>
     </div>
@@ -74,9 +74,9 @@ Technologies: R, d3.js, JavaScript, MongoDB.
 <a class="btn noselect">View Demo</a> -->
 
 
-### Other projects:
+<!-- ### Other projects: -->
 
-<div class="project-container" id="rogers-dictionary">
+<div class="project-container noselect first-in-row" id="rogers-dictionary">
     <div class="project-image">
         <img src="/assets/rogers_dictionary.png" alt="Project_image" style="width:250px, height:auto"/>
     </div>
