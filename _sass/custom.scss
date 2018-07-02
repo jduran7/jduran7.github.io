@@ -92,6 +92,7 @@ a.post-link{
   font-family: 'Roboto', sans-serif;
   line-height: 1.1;
   font-weight:400;
+  font-size: 22px;
 }
 
  ul.post-list > li:nth-child(1) > h2 > a{
@@ -301,10 +302,6 @@ pre code {
 //   padding-left: 0px;
 // }
 
-.post-link{
-  font-size: 22px;
-}
-
 main.page-content{
   margin-bottom: 0px;
   padding-bottom: 5px;
@@ -323,7 +320,7 @@ li > span{
 }
 
 .post-link{
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 
