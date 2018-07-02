@@ -19,7 +19,7 @@ permalink: /portfolio/
         <div class="section-label">
             <span>Project description</span>
         </div>
-        <p>Website for a clinical research exchange program, including a module to process applications.<br>Total site visitors: ~ 4200.</p>
+        <p>Website for a research exchange program, including a module to process applications. Total site visitors: ~ 4200.</p>
         <div class="section-label">
             <span>Technologies</span>
         </div>
@@ -36,7 +36,7 @@ permalink: /portfolio/
 </div>
 <div class="project-container noselect" id="iri-dashboard">
     <div class="project-image">
-        <img src="/assets/laboratory.jpg" alt="Project_image" style="width:250px, height:auto"/>
+        <img src="/assets/document_scores.png" alt="Project_image" style="width:250px, height:auto"/>
     </div>
     <div class="project-description">
         <div class="section-label">

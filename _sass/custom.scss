@@ -141,7 +141,7 @@ h1.post-title{
   padding: 20px 70px;
   // padding: 20px 50px;
   background: white;
-  border-radius: 32px;
+  border-radius: 0px 0px 32px 32px;
 }
 
 .techicon{
@@ -205,6 +205,9 @@ header .wrapper {
   background: white;
   position: fixed !important;
   opacity:0.99;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 1px 0.4px 4px 0.6px #737373;
 }
 
 .site-nav .page-link:not(:last-child) {
@@ -433,6 +436,7 @@ ul.techs > li{
 
 .project-description > p{
   padding-left: 10px;
+  padding-right: 10px;
   padding-top:6px;
   line-height: 1.1em;
 }
