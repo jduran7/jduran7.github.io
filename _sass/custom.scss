@@ -111,7 +111,7 @@ a.post-link:hover{
 }
 
 h1.post-title{
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .post-list{
@@ -529,9 +529,16 @@ a.btn + a.btn {
 }
 
 @media(min-width: 755px){
-  .project-container + .project-container{
+  // .project-container + .project-container{
+  //   margin-left:20px;
+  // }
+
+  .project-container:nth-child(even){
     margin-left:20px;
   }
+  
+
+
 }
 
 
