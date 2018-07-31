@@ -614,6 +614,14 @@ a.btn + a.btn {
   .site-header{
     background: #f5f5f5;
   }
+
+  .post-header{
+    padding-left: 10px;
+  }
+
+  a.page-link{
+    color: #6254ca !important;
+  }
 }
 
 // end of menu
@@ -624,7 +632,10 @@ a.btn + a.btn {
   float: left;
   width: 175px;
   height: 36px;
-  background:#3c3c3c;
+  background:#3c3b3be3;
+  // background: linear-gradient(45deg, #3e3d3d, #666ac7);
+  // background: linear-gradient(45deg, #56435d, #4595da);
+  background: #1d1c1cb5;
   margin-top: 22px;
   padding: 0;
   margin-left: calc((100% - 175px)/2);
@@ -681,5 +692,6 @@ a
   line-height: 1;
   text-align: center;
   transform: translate(0, -50%);
-  color:rgb(89, 225, 84);
+  // color:rgb(89, 225, 84);
+  color:white;
 }
