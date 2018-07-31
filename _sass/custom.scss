@@ -582,3 +582,24 @@ a.btn + a.btn {
   height: 100%;
   border: 0;
 }
+
+
+//customizing nav menu
+
+@media screen and (max-width: 765px){
+  .site-nav input:checked ~ .trigger {
+    display: block;
+    position: absolute;
+    top: 59px;
+    right: -23px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 100vw;
+    z-index: 3;
+    background-color: #e8e8e8;
+    border-bottom: 1px solid grey;
+    /* float: left; */
+    height: 150px;
+  }
+}
