@@ -609,6 +609,7 @@ a.btn + a.btn {
 
   h1.post-title{
     font-size:24px;
+    padding-left: 6vw;
   }
 
   .site-header{
@@ -616,11 +617,20 @@ a.btn + a.btn {
   }
 
   .post-header{
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   a.page-link{
     color: #6254ca !important;
+  }
+
+  .post-list{
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .post-list > li {
+    padding-left: 0px;
   }
 }
 
@@ -632,14 +642,15 @@ a.btn + a.btn {
   float: left;
   width: 175px;
   height: 36px;
-  background:#3c3b3be3;
+  // background:#3c3b3be3;
   // background: linear-gradient(45deg, #3e3d3d, #666ac7);
   // background: linear-gradient(45deg, #56435d, #4595da);
-  background: #1d1c1cb5;
+  background: #ffffffb5;
   margin-top: 22px;
   padding: 0;
   margin-left: calc((100% - 175px)/2);
-  border-radius: 32px;
+  border-radius: 5px;
+  border: 1px solid #a09d9d;
 }
 
 .site-header{
@@ -693,5 +704,5 @@ a
   text-align: center;
   transform: translate(0, -50%);
   // color:rgb(89, 225, 84);
-  color:white;
+  color:black;
 }
