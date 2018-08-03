@@ -131,15 +131,27 @@
      const button = document.querySelector('.js-morph-trigger');
      const morph  = document.querySelector('*[data-morph]');
      var title = document.getElementsByTagName("title")[0].innerHTML.toLowerCase();
+     var navItems = ["about", "blog", "resume", "portfolio"]; 
      if (title != "jduran.me" && title.indexOf(' ') == -1) {
       title = "/" + title;
      }
      else if(title.indexOf(' ') != -1){
-       title = "/" + title.substr(0,title.indexOf(' '));
-     }
-     else{
-       title = "";
-     }
+      if(title.length > 8){
+        title = "/blog" 
+       }
+      else{
+        title = "/" + title.substr(0,title.indexOf(' '));
+      }
+       
+    }
+    else {
+      title = "";
+    }
+     //only use navbar items on pseudo url path
+     // if (navItems.indexOf(title) == -1) {
+     //  title = "";
+     // }
+
      const words  = ["jduran.me"+title];
      
      
