@@ -1,66 +1,22 @@
 <!DOCTYPE html>
-
-<html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+  {% include head.html %}
 
-        <head>
-            <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-          
-            <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-            <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-          
-            <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-            <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-            <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-            <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Ropa+Sans|Concert+One|Exo+2:600|Hind|Sniglet|Viga|Roboto|Open+Sans|Source+Code+Pro|Source+Sans+Pro" rel="stylesheet">
-            <script src="https://use.fontawesome.com/9d833933dd.js"></script>
-            <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-            <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <body>
 
-            <link rel="stylesheet" type="text/css" href="/assets/normalize.css" />
-            <link rel="stylesheet" type="text/css" href="/assets/resume_style.css"/>
-          
-            
-            {% if jekyll.environment == 'production' and site.google_analytics %}
-            {% include google-analytics.html %}
-            {% endif %}
-          </head>
+    {% include header.html %}
 
-          <body>
+    {{ content }}
 
-              {% include header.html %}
-          
-              <main class="page-content" aria-label="Content">
-                <div class="wrapper">
+    {% include footer.html %}
+    
+    
+    {% if jekyll.environment == 'production'%}
+    {% include google-analytics.html %}
+    {% endif %}
 
-                  <article class="post">
+    
+  </body>
 
-                      <!-- <header class="post-header">
-                        <h1 class="post-title"><i class="em em-open_file_folder"></i> {{ page.title | escape }}</h1>
-                      </header> -->
-
-                      <div class="resp-container"></div>
-                        <iframe 
-                          class="resp-container"
-                          width="740" 
-                          height="1612" 
-                          src="http://localhost/resume/out/resume.html" 
-                          frameborder="0" 
-                          gesture="media" 
-                          allow="encrypted-media" 
-                          allowfullscreen>
-                        </iframe>
-                      </div>
-                      
-
-
-                </div>
-              </main>
-              
-            </body>
-          
 </html>
-          
