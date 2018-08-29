@@ -95,7 +95,7 @@ permalink: /resume/
 </div>
 <header>
    <h3 class="name">
-    Harvard Medical School / Beth Israel Deaconess
+    Harvard Medical School / BIDMC
 </h3>
 <div class="date">	<span class="startDate">
    June 2016
@@ -136,9 +136,6 @@ permalink: /resume/
     <div class="website">	
     <a href="https://picsart.com">https://picsart.com</a>
     </div>
-    <div class="website">
-    <a href="https://www.crunchbase.com/organization/mylikes">https://www.crunchbase.com/organization/mylikes</a>
-    </div>
     <div class="summary">
         <p>Freelance content writer and translator for two startups in San Francisco:
             PicsArt (Image editing) and MyLikes (viral content and marketing, rebranded
@@ -166,42 +163,13 @@ permalink: /resume/
 </section>
 </section>
 <section class="section">
-   <h2 class='section-title'>Volunteer</h2>
-   <section id="volunteer">
-    <header>
-       <h3 class="company">
-          International Research Initiative (IRI)
-      </h3>
-      <div class="date">
-      <span class="startDate">September 2016</span>
-     <span class="endDate">- current</span>
-     </div>
-    </header>
- <div class="item">
-    <div class="position">Director of Media and communications</div>
-    <div class="website">	<a href="https://irinitiative.com">https://irinitiative.com</a>
-    </div>
-    <div class="summary">
-        <p>IRI is a research exchange program ran entirely by volunteers that aims
-            to connect medical graduates in developing countries with clinical and
-            basic science research laboratories in the Boston area. Responsible for
-        the website and software tools used to process applications.</p>
-    </div>
-    <ul class="highlights">
-        <li>Increased outreach (~6500 users since website was launched)</li>
-        <li>Profitable since July 2018</li>
-    </ul>
-</div>
-</section>
-</section>
-<section class="section">
    <h2 class='section-title'>Skills</h2>
    <section id="skills">
     <div class="item">
-        <div class="name">Web Development</div>
-        <div class="level advanced">	<em>Advanced</em>
+        <div class="name">Front-end Development</div>
+        <!-- <div class="level advanced">	<em>Advanced</em>
             <div class="bar"></div>
-        </div>
+        </div> -->
         <ul class="keywords">
             <li>HTML/CSS</li>
             <li>Javascript</li>
@@ -213,9 +181,9 @@ permalink: /resume/
     </div>
     <div class="item">
         <div class="name">Statistical programming</div>
-        <div class="level intermediate">	<em>Intermediate</em>
+        <!-- <div class="level advanced">	<em>Advanced</em>
         <div class="bar"></div>
-        </div>
+        </div> -->
         <ul class="keywords">
             <li>R</li>
             <li>Python</li>
