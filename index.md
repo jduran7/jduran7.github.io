@@ -10,14 +10,11 @@ permalink: /
 <div class="img-centered">
 	<img class="img-centered" src="/assets/jose.jpg" alt="Drawing" class = "rounded-image" style="width: 200px;"/>
 </div>
-<!-- <img class="img-centered" src="/assets/jose.jpg" alt="Drawing" class = "rounded-image" style="width: 200px;"/> -->
 
-Hi! I'm Jose Duran, a clinical researcher and **software developer** from **Colombia.**
+Hi! I'm Jose Duran, a **software developer** and clinical researcher from **Colombia.**
 
-I live in **Boston** and work as a **postdoctoral research fellow** at **Harvard Medical School**. My main research interests are **robotic radiosurgery** and **immunotherapy**.
+I live in **Boston** and currently work as a **postdoctoral research fellow** at **Harvard Medical School**, where I study **robotic radiosurgery** as a treatment for **pancreatic cancer**.
 
-In terms of programming, I'm interested in the development of **software tools to help patients with chronic diseases**. 
+In terms of programming, I'm interested in **modern JavaScript frameworks**, **data visualizations**, and the development of **software tools to help patients with chronic diseases**.
 
-I'm currently studying healthy tissue radioprotection in pancreatic cancer and the combination of immunotherapy and robotic radiosurgery in kidney cancer and melanoma.
-
-The programming languages I'm using the most at the moment are **Javascript**, **Python**, and **R**.
+The programming languages I'm using the most are **Javascript**, **Python**, and **R**.

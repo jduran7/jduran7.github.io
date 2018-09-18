@@ -63,8 +63,7 @@ permalink: /resume/
         <section class="section main-summary">
             <h2 class='section-title'>About</h2>
             <section>
-                <p>Software developer with a background in medicine, interested in JavaScript
-                frameworks, the web apps ecosystem and working with data.</p>
+                <p>Software developer with a background in medicine, interested in modern JavaScript frameworks, web apps, and working with data.</p>
             </section>
         </section>
 <section class="section">
