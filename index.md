@@ -18,3 +18,5 @@ I live in **Boston** and currently work as a **postdoctoral research fellow** at
 In terms of programming, I'm interested in **modern JavaScript frameworks**, **data visualizations**, and the development of **software tools to help patients with chronic diseases**.
 
 The programming languages I'm using the most are **Javascript**, **Python**, and **R**.
+
+This website was built using [Jekyll](https://jekyllrb.com) and is hosted on [Github pages](https://pages.github.com/).
