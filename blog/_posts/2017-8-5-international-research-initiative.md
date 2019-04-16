@@ -26,7 +26,7 @@ I joined the IRI team in August 2016 with the purpose of applying my knowledge o
 
 My number one priority was to create a website through which people could find about IRI and apply to it. The program organizers were relying heavily on email communication that in many cases wasn't strictly necessary, and potential candidates could only find about the program via word of mouth.
 
-After working on the website during my free time for some weeks, [irinitiative.com](http://irinitiative.com) was officialy launched on September 2016.
+After working on the website during my free time for some weeks, [irinitiative.com](https://irinitiative.com) was officialy launched on September 2016.
 
 Applications on the website are processed through a form, in which candidates fill their data in plain text and then upload the required documents in PDF format. The applications script checks the file format so that only PDF is allowed, and if all the required fields are filled already, sends an email to a corporate Gmail account with the candidates information in plain text using [phpmailer](https://github.com/PHPMailer/PHPMailer), and their application documents as attachments. This way, the admissions committee can use a tool that they are already familiar with (Gmail), and all the applications are kept in an organized way.
 

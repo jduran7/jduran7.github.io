@@ -29,8 +29,8 @@ permalink: /portfolio/
             <li><a>PHP</a></li>
         </ul>
         <div class="project-actions">
-            <a class="btn noselect" href="http://www.irinitiative.com">View Demo</a>
-            <a class="btn noselect" href="http://www.irinitiative.com">View Article</a>
+            <a class="btn noselect" href="https://www.irinitiative.com">View Demo</a>
+            <a class="btn noselect" href="https://www.irinitiative.com">View Article</a>
         </div>
     </div>
 </div>
@@ -82,7 +82,7 @@ permalink: /portfolio/
             <li><a>moment.js</a></li>
         </ul>
         <div class="project-actions">
-            <a class="btn noselect" href="http://jduran.me/choreschedules/">View Demo</a>
+            <a class="btn noselect" href="https://jduran.me/choreschedules/">View Demo</a>
         </div>
     </div>
 </div>

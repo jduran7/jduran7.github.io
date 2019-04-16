@@ -235,7 +235,7 @@ $(function(){
 });
 {% endhighlight %}
 
-And finally, here's what it looks like with some CSS styling ([materialize](http://materializecss.com/)):
+And finally, here's what it looks like with some CSS styling ([materialize](https://materializecss.com/)):
 
 <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
        <source src="{{ site.baseurl }}/assets/choreschedule.webm"  type="video/webm"  />
