@@ -13,7 +13,7 @@ source "https://rubygems.org"
 gem "jekyll", ">= 3.6.3"
 gem "nokogiri", ">= 1.11.0"
 gem "ffi", ">= 1.9.24"
-
+gem "kramdown", ">= 2.3.1"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
