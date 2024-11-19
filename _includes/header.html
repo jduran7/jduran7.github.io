@@ -4,172 +4,174 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <!-- <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
-  
+
     {% if page_paths %}
-      <!-- beginning of logo -->
-      <nav class="noselect" id="page-logo">
-        <div class="awesome-text">
-            <!-- <i class="fa fa-server" aria-hidden="true"></i>
+    <!-- beginning of logo -->
+    <nav class="noselect" id="page-logo">
+      <div class="awesome-text">
+        <!-- <i class="fa fa-server" aria-hidden="true"></i>
             <h1>jduran.me</h1> -->
-            <h1 data-morph>jduran.me</h1>
-        </div>
-        
-      </nav>
+        <h1 data-morph>jduran.me</h1>
+      </div>
 
-      <!-- end of logo -->
+    </nav>
 
-      <nav class="site-nav noselect">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-        
-        <div class="trigger">
-          {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-            {% if my_page.title %}
-              <a class="page-link" href="{{ my_page.url | relative_url}}">{{ my_page.title | upcase | escape }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </nav>
+    <!-- end of logo -->
+
+    <nav class="site-nav noselect">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path fill="#424242"
+              d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
+            <path fill="#424242"
+              d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" />
+            <path fill="#424242"
+              d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" />
+          </svg>
+        </span>
+      </label>
+
+      <div class="trigger">
+        {% for path in page_paths %}
+        {% assign my_page = site.pages | where: "path", path | first %}
+        {% if my_page.title %}
+        <a class="page-link" href="{{ my_page.url | relative_url}}">{{ my_page.title | upcase | escape }}</a>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
     {% endif %}
   </div>
 
 </header>
 
 <script>/**
-    * morpher() morph a text to another
-    * It loops over chars to morph the text
-    *
-    * @param {Element} element
-    * @param {String} start
-    * @param {String} end
-    */
-   const morpher = (element, start, end) => {
-     /**
-      * Write parameters
-      *
-      * [1] : chars is an array of characters you choose to randomly morph the text between start and end
-      * [2] : duration is the duration of the global morph
-      * [3] : frameRate is the speed of the morph for each letter
-      */
-     const chars     = ['a','b','c','d','e','f','g','0','1','2','3','4','5','6','7','8','9','%','$','?','!']; /*[1]*/
-     const duration  = 2;  /*[2]*/
-     const frameRate = 15; /*[3]*/
-   
-     /**
-      * Write text variables
-      */
-     const string = start.split('');
-     const result = end.split('');
-     const slen   = string.length;
-     const rlen   = result.length;
-   
-     /**
-      * Write time variables
-      */
-     let present   = new Date();
-     let past      = present.getTime();
-     let count     = 0;
-     let spentTime = 0;
-     // SplitTime  = milliseconds / letters
-     let splitTime = (duration * 1000) / Math.max(slen, rlen);
-   
-     const update = () => {
-       // Update present date and spent time
-       present    = new Date();
-       spentTime += present.getTime() - past;
-   
-       // Random letters
-       for (let i = count; i < Math.max(slen, rlen); i++) {
-         const random = Math.floor(Math.random() * (chars.length - 1));
-         // Change letter
-         string[i] = chars[random];
-       }
-   
-       // Morph letters from start to end
-       if (spentTime >= splitTime) {
-         // Update count of letters to morph
-         count += Math.floor(spentTime / splitTime);
-         // Morphing
-         for (let j = 0; j < count; j++) {
-           string[j] = result[j] || null;
-         }
-         // Reset spent time
-         spentTime = 0;
-       }
-   
-       // Update DOM
-       element.textContent = string.join('');
-   
-       // Save present date
-       past = present.getTime();
-   
-       // Loop
-       if (count < Math.max(slen, rlen)) {
-         // Only use a setTimeout if the frameRate is lower than 60FPS
-         // Remove the setTimeout if the frameRate is equal to 60FPS
-         setTimeout(() => {
-           window.requestAnimationFrame(update);
-         }, 1000 / frameRate);
-       }
-     };
-   
-     // Start loop
-     update();
-   }
-   
-   $(() => {
+* morpher() morph a text to another
+* It loops over chars to morph the text
+*
+* @param {Element} element
+* @param {String} start
+* @param {String} end
+*/
+  const morpher = (element, start, end) => {
+    /**
+     * Write parameters
+     *
+     * [1] : chars is an array of characters you choose to randomly morph the text between start and end
+     * [2] : duration is the duration of the global morph
+     * [3] : frameRate is the speed of the morph for each letter
+     */
+    const chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '%', '$', '?', '!']; /*[1]*/
+    const duration = 2;  /*[2]*/
+    const frameRate = 15; /*[3]*/
 
-     const button = document.querySelector('.js-morph-trigger');
-     const morph  = document.querySelector('*[data-morph]');
-     var title = document.getElementsByTagName("title")[0].innerHTML.toLowerCase();
-     var navItems = ["about", "blog", "resume", "portfolio"]; 
-     if (title != "jduran.me" && title.indexOf(' ') == -1) {
-      title = "/" + title;
-     }
-     else if(title.indexOf(' ') != -1){
-      if(title.length > 8){
-        title = "/blog" 
-       }
-      else{
-        title = "/" + title.substr(0,title.indexOf(' '));
+    /**
+     * Write text variables
+     */
+    const string = start.split('');
+    const result = end.split('');
+    const slen = string.length;
+    const rlen = result.length;
+
+    /**
+     * Write time variables
+     */
+    let present = new Date();
+    let past = present.getTime();
+    let count = 0;
+    let spentTime = 0;
+    // SplitTime  = milliseconds / letters
+    let splitTime = (duration * 1000) / Math.max(slen, rlen);
+
+    const update = () => {
+      // Update present date and spent time
+      present = new Date();
+      spentTime += present.getTime() - past;
+
+      // Random letters
+      for (let i = count; i < Math.max(slen, rlen); i++) {
+        const random = Math.floor(Math.random() * (chars.length - 1));
+        // Change letter
+        string[i] = chars[random];
       }
-       
+
+      // Morph letters from start to end
+      if (spentTime >= splitTime) {
+        // Update count of letters to morph
+        count += Math.floor(spentTime / splitTime);
+        // Morphing
+        for (let j = 0; j < count; j++) {
+          string[j] = result[j] || null;
+        }
+        // Reset spent time
+        spentTime = 0;
+      }
+
+      // Update DOM
+      element.textContent = string.join('');
+
+      // Save present date
+      past = present.getTime();
+
+      // Loop
+      if (count < Math.max(slen, rlen)) {
+        // Only use a setTimeout if the frameRate is lower than 60FPS
+        // Remove the setTimeout if the frameRate is equal to 60FPS
+        setTimeout(() => {
+          window.requestAnimationFrame(update);
+        }, 1000 / frameRate);
+      }
+    };
+
+    // Start loop
+    update();
+  }
+
+  $(() => {
+
+    const button = document.querySelector('.js-morph-trigger');
+    const morph = document.querySelector('*[data-morph]');
+    var title = document.getElementsByTagName("title")[0].innerHTML.toLowerCase();
+    var navItems = ["about", "blog", "resume", "portfolio", "services"];
+    if (title != "jduran.me" && title.indexOf(' ') == -1) {
+      title = "/" + title;
+    }
+    else if (title.indexOf(' ') != -1) {
+      if (title.length > 8) {
+        title = "/blog"
+      }
+      else {
+        title = "/" + title.substr(0, title.indexOf(' '));
+      }
+
     }
     else {
       title = "";
     }
-     //only use navbar items on pseudo url path
-     // if (navItems.indexOf(title) == -1) {
-     //  title = "";
-     // }
+    //only use navbar items on pseudo url path
+    // if (navItems.indexOf(title) == -1) {
+    //  title = "";
+    // }
 
-     const words  = ["jduran.me"+title];
-     
-     
-     let counter  = 0;
-     
-     setInterval(() => {
-       const start = morph.textContent;
-       const end   = words[counter];
-       
-       morpher(morph, start, end);
-        
-       if (counter < words.length - 1) {
-         counter++;
-       } else {
-         counter = 0;
-       }
-     }, 8000);
-   });
+    const words = ["jduran.me" + title];
+
+
+    let counter = 0;
+
+    setInterval(() => {
+      const start = morph.textContent;
+      const end = words[counter];
+
+      morpher(morph, start, end);
+
+      if (counter < words.length - 1) {
+        counter++;
+      } else {
+        counter = 0;
+      }
+    }, 8000);
+  });
 
 </script>
-
